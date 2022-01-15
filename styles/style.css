@@ -75,3 +75,83 @@ a{
         line-height: 80px;
         margin-left: 30px;
     }
+
+/* -----------
+    ---------- top banner's styles  --------
+    -------------- */
+
+
+
+    .top-banner{
+        box-sizing: border-box;
+        height: 100vh;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-banner p{
+        padding-right: 50px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    .top-banner .link-button{
+        background-color: #E02C6D;
+        color: white;
+        padding: 10px 24px;
+        border-radius: 41px;
+        line-height: 100px;
+    }    
+
+    .top-banner img{
+        padding-left: 50px;
+        width: 90%;
+        height: auto;
+        border-radius: 50px;
+    }
+    
+
+
+/* -----------
+    ---------- famous brands styles  --------
+    -------------- */
+
+
+
+
+    
+/* -----------
+    ---------- popular collection's styles  --------
+    -------------- */
+
+.popular-collection h2{
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    box-sizing: border-box;
+    padding: 30px 50px;
+}
+
+.card{
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px gray;
+}
+.card h3{
+    line-height: 15px;
+}
+.card > p, span{
+    color: gray;
+}
+.stars{
+    color: orange;
+}
+.card p{
+    line-height: 5px;
+}
