@@ -52,6 +52,11 @@ a{
 .link-button{
     font-size: 16px;
     font-weight: 700;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 41px;
+    line-height: 100px;
 }
 .link-button:hover .icon{
     transform: rotate(60deg);
@@ -96,14 +101,7 @@ a{
         font-weight: 300;
         line-height: 25px;
     }
-
-    .top-banner .link-button{
-        background-color: #E02C6D;
-        color: white;
-        padding: 10px 24px;
-        border-radius: 41px;
-        line-height: 100px;
-    }    
+    
 
     .top-banner img{
         padding-left: 50px;
@@ -154,4 +152,35 @@ a{
 }
 .card p{
     line-height: 5px;
+}
+.see-more{
+    background-color:white;
+    color: #E02C6D;
+    float: right;
+}
+
+.newslatter{
+    width: 80%;
+    height: auto;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+form img{
+    width: 80%;
+    height: auto;
+}
+.contact{
+    margin-top: 5%;
+}
+label{
+    font-size: 20px;
+}
+input{
+    height: 30px;
+    width: 60%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 10px;
 }
