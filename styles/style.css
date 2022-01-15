@@ -276,7 +276,7 @@ footer p{
         }
       }
 
-      /* mobile friendly feature  */
+      /* tablet friendly feature  */
 
     @media only screen and (min-width: 689px) and (max-width: 1312px){
         h1{
