@@ -1,0 +1,77 @@
+    /* -----------
+    ---------- google fonts --------
+    -------------- */
+
+/* poppins     */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+    /* inter */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+    /* -----------
+    ---------- common styles or utilities --------
+    -------------- */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: poppins;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 52px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: poppins;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: poppins;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link-button{
+    font-size: 16px;
+    font-weight: 700;
+}
+.link-button:hover .icon{
+    transform: rotate(60deg);
+    transition: transform 2s ease-in-out;
+}
+
+/* -----------
+    ---------- header's styles  --------
+    -------------- */
+
+    header{
+        height: 100px;
+    }
+
+    .half-width{
+        width: 50%;
+    }
+    
+    .brand-name h3 a{
+        color: black;
+        line-height: 80px;
+        margin-left: 30px;
+    }
