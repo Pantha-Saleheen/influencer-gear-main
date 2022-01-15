@@ -110,16 +110,7 @@ a{
         border-radius: 50px;
     }
     
-
-
-/* -----------
-    ---------- famous brands styles  --------
-    -------------- */
-
-
-
-
-    
+  
 /* -----------
     ---------- popular collection's styles  --------
     -------------- */
@@ -137,9 +128,9 @@ a{
 
 .card{
     box-sizing: border-box;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
-    box-shadow: 1px 1px 20px gray;
+    box-shadow: 1px 1px 5px gray;
 }
 .card h3{
     line-height: 15px;
@@ -225,6 +216,8 @@ footer p{
     ---------- media query  --------
     -------------- */
 
+    /* mobile friendly feature  */
+
     @media only screen and (max-width: 688px) {
         h1{
             font-size: 30px;
@@ -268,6 +261,69 @@ footer p{
         .card-container{
             display: grid;
             grid-template-columns: repeat(1,1fr);
+            width: 80%;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        input{
+            width: 60%;
+        }
+        footer{
+            width: 100%;
+        }
+      }
+
+      /* mobile friendly feature  */
+
+    @media only screen and (min-width: 689px) and (max-width: 1312px){
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 25px;
+        }
+        .brand-name{
+            width: 100%;
+            text-align: center;
+        }
+        .brand-name h3{
+            font-size: 27px;
+        }
+        main{
+            margin-left: 3%;
+        }
+        .half-width{
+            width: 100%;
+        }
+        .top-banner{
+            box-sizing: border-box;
+            flex-direction: column;
+            width: 100%;
+        }
+        .top-banner .image-section{
+            order: 1;
+        }
+        .top-banner img{
+            padding-left: 30px;
+            height: auto;
+            width: 80%;
+            border-radius: 10px;
+        }
+        .top-banner .info-section{
+            order: 2;
+        }
+        .card-container{
+            box-sizing: border-box;
+            padding: 0px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 10px;
             width: 80%;
         }
         form{
