@@ -278,7 +278,7 @@ footer p{
 
       /* tablet friendly feature  */
 
-    @media only screen and (min-width: 689px) and (max-width: 1312px){
+    @media only screen and (min-width: 689px) and (max-width: 1250px){
         h1{
             font-size: 40px;
         }
